@@ -1,4 +1,4 @@
-# ArticMusic
+# ArticMusic, cold storage for Music
 
 ArticMusic was made because we think that music is also part of who listens it. There is no copyright, license or economical interest that should take emotions, feelings and memories away from the people. 
 
@@ -14,7 +14,15 @@ The Project follows the [divide et impera](https://en.wikipedia.org/wiki/Divide_
 - Downloaders: Plug-in oriented way of downloading music given an ID. Black-box oriented, given an ID we get the track out at maximum available quality, no matter what happens inside.
 - P2P Sharing: If enabled, allows to run in torrent-like mode, allowing others to download music from your archive. Useful when a track completely disappears in the internet, or if you want to download music at higher quality that your plugged Downloaders allow.
 - P2P Central Server: Torrent Tracker, basically
+- Metadata Fetchers: Given a 
 - Aggregator: Web-based UI to manage settings and storage, correct Filter decisions, check system status, listen to music and so on. One interface to rule them all.
 
 We aim to build good and lightweight software with a good ratio between code quality, code complexity, effort and expected results. 
 Do not expect enterprise-grade code on an History Extractor that may break completely at every update from the service provider.
+
+### Why ArticMusic 
+
+Inspired by the [Arctic Code Vault](https://archiveprogram.github.com/arctic-vault/), we wanted to make a long-term storage for Music. Whatever we listened to, either we liked it or it was just a song playing in the car, we want to have a permanent, unrestricted, high-quality copy of that song. To make this possible, mostly for the future, P2P is the only chance.  
+ArticMusic is basically a mix of software that we have already seen, but made specifically for music and automation. Also, we want to have a way to identify remixes and link them to the original songs and this is quite unique. 
+
+Note: We know it's Arctic, not Artic, but it's easier to do SEO with words that nobody uses, right?
